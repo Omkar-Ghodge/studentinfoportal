@@ -1,0 +1,7 @@
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\StudentInfoPortal.exe
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\appsettings.json
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\StudentInfoPortal.dll
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\StudentInfoPortal.deps.json
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\StudentInfoPortal.runtimeconfig.json
+C:\Projects\StudentInfoPortal\bin\Release\net9.0\publish\StudentInfoPortal.pdb

@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net9.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/866eb443-b9e6-45e7-a2e2-47b67ea048bf/resourceGroups/appsvc_windows_centralindia/providers/Microsoft.Web/sites/studentinfoportal-pccedemo"
+}
