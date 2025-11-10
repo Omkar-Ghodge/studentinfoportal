@@ -2,7 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+builder.Services.AddSingleton<StudentInfoPortal.Services.StudentService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,0 +1,39 @@
+@page
+@model StudentInfoPortal.Pages.StudentsModel
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h2 class="text-primary mt-3 mb-3">Students</h2>
+
+<p><a class="btn btn-success" href="/AddStudent">Add New Student</a></p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Year</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var s in Model.Students)
+    {
+        <tr>
+            <td>@s.Name</td>
+            <td>@s.Branch</td>
+            <td>@s.Year</td>
+            <td>
+                <a class="btn btn-sm btn-warning" href="/EditStudent?id=@s.Id">Edit</a>
+                <form method="post" asp-page-handler="Delete" style="display:inline;">
+                    <input type="hidden" name="id" value="@s.Id" />
+                    <button class="btn btn-sm btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="/" class="btn btn-outline-secondary">← Back to Home</a>
