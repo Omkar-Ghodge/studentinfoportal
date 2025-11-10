@@ -1,0 +1,12 @@
+# Visual Studio related build output
+bin/
+obj/
+
+# Specific debug folders
+**/bin/Debug/
+**/obj/Debug/
+
+# Other common debug-related files
+*.pdb
+*.suo
+*.user
